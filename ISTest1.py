@@ -33,3 +33,28 @@ else
 
 
 """
+def option1():
+    return 10 * 100
+
+def option2():
+    amount =1
+    list1 = []
+    for i in range(0, 10):
+        list1.append(amount)
+        amount *= 2
+    total = sum(list1)
+    return total
+
+def main():
+    answer = " "
+    opt1 = option1()
+    opt2 = option2()
+    if opt1 == opt2:
+        answer = "Option 1 and Option 2 pays the same"
+    if opt1 < opt2:
+        answer = "Option 2 is better"
+    else:
+        answer = "Option 1 is better"
+    print(answer)
+
+main()
