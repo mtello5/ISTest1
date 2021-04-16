@@ -11,3 +11,25 @@ If total amount for each option is equal, output "Option 1 and Option 2 pays the
 If option1 pays better, we output "Option 1 is better"
 If option2 pays better, we output "Option 2 is better"
 """
+
+"""
+# option1
+return 10 * 100
+
+# option2
+pay_2 = 1
+total_2 = 0
+for i=1 to 10
+total_2 = total_2 + pay_2
+pay_2 = 2*pay_2
+
+# main
+If option1 == option2
+"Option 1 and 2 pays the same"
+if option1 < option 2
+"Option 2 is better"
+else
+"Option 1 is better"
+
+
+"""
